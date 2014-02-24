@@ -1,2 +1,9 @@
 recordscreen.py is a simple commandline tool for Linux to record screencasts
 from your desktop. It uses ffmpeg or avconv for actual recording and encoding.
+
+
+In Debian-like Systems may necessary to install some dependencies which are listed below.
+
+    $ sudo apt-get install libav-tools ffmpeg libavc1394-0 libavformat-extra-53 libavfilter2 libavutil-extra-51 mencoder libavahi-common-data
+    
+
